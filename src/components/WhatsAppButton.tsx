@@ -9,7 +9,7 @@ interface WhatsAppButtonProps {
 const WhatsAppButton = ({ className = "", size = "default" }: WhatsAppButtonProps) => {
   const handleClick = () => {
     const message = encodeURIComponent("Hola, quiero recibir información sobre Camino Digital");
-    window.open(`https://wa.me/1234567890?text=${message}`, "_blank");
+    window.open(`https://wa.me/5212211027278?text=${message}`, "_blank");
   };
 
   return (
