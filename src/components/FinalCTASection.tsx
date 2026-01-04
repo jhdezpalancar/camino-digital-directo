@@ -25,8 +25,7 @@ const FinalCTASection = () => {
           </p>
 
           <p className="text-secondary-foreground/70 mb-10 max-w-xl mx-auto">
-            Escríbenos por WhatsApp, recibe la información completa 
-            y accede al taller que te llevará del punto A al punto B.
+            Continúa por WhatsApp para gestionar tu acceso al taller que te llevará del punto A al punto B.
           </p>
 
           <WhatsAppButton size="lg" />
