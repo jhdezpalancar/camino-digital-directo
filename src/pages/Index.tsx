@@ -1,13 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import HeroSection from "@/components/HeroSection";
+import PuntoASection from "@/components/PuntoASection";
+import CaminoSection from "@/components/CaminoSection";
+import PuntoBSection from "@/components/PuntoBSection";
+import ValueStackSection from "@/components/ValueStackSection";
+import ScarcitySection from "@/components/ScarcitySection";
+import AudienceSection from "@/components/AudienceSection";
+import FinalCTASection from "@/components/FinalCTASection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <Helmet>
+        <title>Camino Digital — del Punto A al Punto B | Taller Práctico</title>
+        <meta 
+          name="description" 
+          content="Taller práctico de 2 días para pasar de la confusión y el desorden al orden, claridad y capacidad real de crear contenido digital. Acceso por $10 USD." 
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://caminodigital.com" />
+      </Helmet>
+      
+      <main className="min-h-screen">
+        <HeroSection />
+        <PuntoASection />
+        <CaminoSection />
+        <PuntoBSection />
+        <ValueStackSection />
+        <ScarcitySection />
+        <AudienceSection />
+        <FinalCTASection />
+        <Footer />
+      </main>
+    </>
   );
 };
 
