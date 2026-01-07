@@ -2,7 +2,7 @@ import { CheckCircle, XCircle } from "lucide-react";
 
 const AudienceSection = () => {
   const forWho = [
-    "Quieres crear contenido digital pero hoy te sientes desordenada(o) y sin una ruta clara",
+    "Quieres crear contenido digital pero hoy te sientes desordenada y sin una ruta clara",
     "Has consumido cursos, videos o mentorías y sigues sin saber qué aplicar primero",
     "Necesitas una estructura simple que te diga qué va antes y qué va después",
     "Puedes dedicar dos días completos a trabajar con foco real",
