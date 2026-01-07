@@ -43,6 +43,10 @@ const PuntoBSection = () => {
               <span className="text-foreground font-medium">Directo. Práctico. Sin relleno.</span>
             </p>
           </div>
+          <p className="mt-6 text-center text-sm text-muted-foreground">
+            Este es el punto donde muchas personas por fin pueden avanzar sin bloqueo.
+            Para algunas, también es el momento de decidir si quieren hacerlo acompañadas.
+          </p>
         </div>
       </div>
     </section>
