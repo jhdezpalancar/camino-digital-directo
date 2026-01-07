@@ -2,11 +2,11 @@ import { XCircle } from "lucide-react";
 
 const PuntoASection = () => {
   const painPoints = [
-    "Tienes ideas, pero no sabes por dónde empezar.",
-    "Has consumido cursos, videos y webinars, pero sigues sin avanzar.",
-    "Cada día te sientes más lejos de crear algo propio.",
-    "La información te sobra, pero la claridad te falta.",
-    "Sabes que podrías hacer más, pero el desorden te paraliza.",
+    "Abres Instagram y piensas: “¿yo qué publico hoy?”",
+    "Guardas ideas, pero al final no haces nada con ellas.",
+    "Empiezas con ganas… y a los 10 minutos estás saltando entre videos.",
+    "Sientes que todo el mundo “ya sabe” y tú vas tarde.",
+    "Te sientas a crear contenido y te quedas mirando la pantalla en blanco.",
   ];
 
   return (
@@ -21,7 +21,7 @@ const PuntoASection = () => {
               Donde probablemente estás ahora
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              No es falta de capacidad. Es falta de un sistema que funcione.
+              No es flojera. Es que nadie te dio una forma simple de avanzar.
             </p>
           </div>
 
@@ -37,8 +37,9 @@ const PuntoASection = () => {
           </div>
 
           <p className="text-center mt-10 text-muted-foreground text-lg">
-            Si algo de esto te suena familiar, no estás solo. 
-            Y no necesitas más información. Necesitas un camino claro.
+            Si te viste ahí, no es un “problema tuyo”.
+            Es un problema de enfoque.
+            Y se arregla con estructura, no con más consumo.
           </p>
         </div>
       </div>
