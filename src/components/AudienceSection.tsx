@@ -6,7 +6,7 @@ const AudienceSection = () => {
     "Has consumido cursos, videos o mentorías y sigues sin saber qué aplicar primero",
     "Necesitas una estructura simple que te diga qué va antes y qué va después",
     "Puedes dedicar dos días completos a trabajar con foco real",
-    "Prefieres claridad operativa antes que motivación vacía",
+    "Estás lista para dejar la motivación vacía y trabajar con claridad operativa",
   ];
 
   const notForWho = [
