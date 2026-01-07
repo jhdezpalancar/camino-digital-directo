@@ -87,7 +87,7 @@ const items = [
             <p className="text-secondary-foreground/70 text-lg mb-2">
               Valor total del sistema
             </p>
-            <p className="text-4xl font-bold text-secondary-foreground mb-6 line-through opacity-60">
+            <p className="text-4xl font-bold text-secondary-foreground mb-6 line-through decoration-red-500 decoration-2 opacity-70">
               ${totalValue} USD
             </p>
             <p className="text-secondary-foreground/80 text-lg mb-2">
