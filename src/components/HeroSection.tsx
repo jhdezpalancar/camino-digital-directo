@@ -33,7 +33,10 @@ const HeroSection = () => {
             pero se sienten perdidas, saturadas de información 
             y sin una forma clara de avanzar.
           </p>
-          
+          <p className="text-base md:text-lg text-secondary-foreground/70 mb-10 max-w-2xl mx-auto">
+            En 2 días sales con una estructura reutilizable para crear contenido sin improvisar.
+          </p>
+
           <WhatsAppButton size="lg" />
           
           <p className="mt-6 text-sm text-muted">
