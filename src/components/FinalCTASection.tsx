@@ -25,10 +25,15 @@ const FinalCTASection = () => {
           </p>
 
           <p className="text-secondary-foreground/70 mb-10 max-w-xl mx-auto">
-            En WhatsApp confirmas tu país, recibes el medio de pago, validas tu acceso y te enviamos el formulario y el enlace al grupo.
+            En WhatsApp confirmas tu país, recibes el medio de pago,
+            validas tu acceso y te enviamos el formulario y el enlace al grupo.
           </p>
 
           <WhatsAppButton size="lg" />
+
+          <p className="mt-4 text-sm text-secondary-foreground/70">
+            En menos de 5 minutos sabes si estás dentro.
+          </p>
 
           <p className="mt-8 text-sm text-muted">
             Cupos limitados. Confirmación por orden de pago.
