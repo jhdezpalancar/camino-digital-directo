@@ -9,34 +9,35 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 py-20 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-8">
-            <span className="text-primary-foreground/90 text-sm font-medium">Taller práctico de 2 días</span>
+            <span className="text-primary-foreground/90 text-sm font-medium">Taller práctico de 2 días · Sin experiencia previa</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-secondary-foreground mb-6 leading-tight">
-            Camino Digital
+            Camino Digital<br />de no saber qué publicar a tener una estructura clara
           </h1>
           
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="flex flex-col items-center">
               <span className="text-lg md:text-xl text-muted font-medium">Punto A</span>
-              <span className="text-sm text-muted/70">Confusión y desorden</span>
+              <span className="text-sm text-muted/70">Bloqueo y dudas constantes</span>
             </div>
             <ArrowRight className="w-8 h-8 text-primary animate-pulse" />
             <div className="flex flex-col items-center">
               <span className="text-lg md:text-xl text-primary font-semibold">Punto B</span>
-              <span className="text-sm text-primary/80">Claridad y sistema</span>
+              <span className="text-sm text-primary/80">Estructura y criterio</span>
             </div>
           </div>
           
           <p className="text-lg md:text-xl text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Un sistema estructurado que te lleva de la saturación de información 
-            a la capacidad real de crear contenido digital con orden y claridad.
+            Para personas que quieren crear contenido digital, 
+            pero se sienten perdidas, saturadas de información 
+            y sin una forma clara de avanzar.
           </p>
           
           <WhatsAppButton size="lg" />
           
           <p className="mt-6 text-sm text-muted">
-            El acceso y el pago se coordinan directamente por WhatsApp
+            El acceso y el pago se coordinan por WhatsApp, de forma directa.
           </p>
         </div>
       </div>
