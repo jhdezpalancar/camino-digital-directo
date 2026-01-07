@@ -2,36 +2,40 @@ import { Package, Cpu, Video, List } from "lucide-react";
 import WhatsAppButton from "./WhatsAppButton";
 
 const ValueStackSection = () => {
-  const items = [
-    {
-      icon: Package,
-      name: "Taller Práctico de 2 Días",
-      description: "Visión completa del proceso y lógica del sistema. Sesiones en vivo donde trabajas sobre tu propio proyecto.",
-      promise: "Entender el camino completo del Punto A al Punto B",
-      value: 47,
-    },
-    {
-      icon: Cpu,
-      name: "Bono #1: Arquitectura del Método de Avance Rápido + Prompts",
-      description: "Estructura del método + prompts listos para usar con herramientas de inteligencia artificial.",
-      promise: "Crear contenido con apoyo de IA sin improvisar",
-      value: 97,
-    },
-    {
-      icon: Video,
-      name: "Bono #2: Clases Grabadas + PDFs + Presentaciones",
-      description: "Acceso completo a ambas clases grabadas, material de apoyo y presentaciones visuales.",
-      promise: "Repetir el proceso, avanzar a tu ritmo y no perderte",
-      value: 37,
-    },
-    {
-      icon: List,
-      name: 'Bono #3: Listado "50 Productos Digitales Rentables"',
-      description: "Ideas curadas y analizadas para continuar desarrollando tu negocio tras llegar al Punto B.",
-      promise: "Saber exactamente por dónde seguir después del taller",
-      value: 27,
-    },
-  ];
+const items = [
+  {
+    icon: Package,
+    name: "Taller práctico (2 días en vivo)",
+    description:
+      "Trabajas sobre tu propio caso. Sales con una ruta simple: qué publicar, por qué, y cómo sostenerlo sin depender de inspiración. Sin teoría larga. Con ejecución guiada.",
+    promise: "Terminas con una estructura clara para empezar a publicar con orden",
+    value: 47,
+  },
+  {
+    icon: Cpu,
+    name: "Bono #1: Método de Avance Rápido (arquitectura) + prompts",
+    description:
+      "La secuencia del método explicada en pasos. Y los prompts listos para que la IA te ayude a generar ideas, guiones y variaciones sin quedarte en blanco ni caer en contenido genérico.",
+    promise: "Convertir ideas sueltas en contenido publicable, más rápido y con coherencia",
+    value: 97,
+  },
+  {
+    icon: Video,
+    name: "Bono #2: Repetición completa (grabaciones + PDFs + presentaciones)",
+    description:
+      "Acceso a las dos sesiones grabadas y material de apoyo. Para repetir el proceso en calma, tomar notas bien y aplicar cuando vuelvas a sentirte trabada o dispersa.",
+    promise: "Rehacer el recorrido cuando lo necesites, sin perderte ni improvisar",
+    value: 37,
+  },
+  {
+    icon: List,
+    name: 'Bono #3: Listado "50 productos digitales rentables" (curado)',
+    description:
+      "Un listado trabajado, no una lista al azar. Te sirve para elegir una línea clara y no quedarte paralizada buscando “la idea perfecta” durante semanas.",
+    promise: "Elegir por dónde seguir después del taller, sin dar vueltas",
+    value: 27,
+  },
+];
 
   const totalValue = items.reduce((acc, item) => acc + item.value, 0);
 
