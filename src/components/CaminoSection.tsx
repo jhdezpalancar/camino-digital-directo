@@ -5,17 +5,17 @@ const CaminoSection = () => {
     {
       icon: Route,
       title: "No es motivación",
-      description: "No vas a salir inspirado sin saber qué hacer. Vas a salir con un plan concreto.",
+      description: "No se trata de salir inspirado por unas horas. Se trata de salir sabiendo qué hacer cuando vuelvas a sentarte frente a la pantalla.",
     },
     {
       icon: BookOpen,
       title: "No es teoría",
-      description: "No acumularás más información. Vas a estructurar lo que ya sabes y aplicarlo.",
+      description: "No vas a acumular conceptos nuevos. Vas a ordenar lo que ya sabes para que finalmente tenga sentido y se pueda usar.",
     },
     {
       icon: Lightbulb,
       title: "Es un proceso guiado",
-      description: "En 2 días, con pasos claros, llegas del Punto A al Punto B.",
+      description: "Durante 2 días sigues una secuencia clara que te mueve del desorden inicial hacia una forma concreta de avanzar.",
     },
   ];
 
@@ -31,8 +31,9 @@ const CaminoSection = () => {
               Un sistema, no más contenido
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              Camino Digital es un taller práctico de 2 días diseñado para personas 
-              que necesitan estructura, no más información.
+              Camino Digital es un taller práctico de 2 días pensado para personas
+              que ya intentaron avanzar y descubrieron que el problema no es la falta
+              de información, sino la falta de una estructura clara.
             </p>
           </div>
 
