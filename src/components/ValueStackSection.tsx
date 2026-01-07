@@ -48,7 +48,7 @@ const items = [
               Qué incluye
             </span>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-card-foreground mt-4 mb-6">
-              Todo lo que recibes con Camino Digital
+              El sistema completo que usas durante y después del taller
             </h2>
           </div>
 
