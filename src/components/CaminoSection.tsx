@@ -36,7 +36,6 @@ const CaminoSection = () => {
               de información, sino la falta de una estructura clara.
             </p>
           </div>
-
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div
@@ -54,6 +53,40 @@ const CaminoSection = () => {
                 </p>
               </div>
             ))}
+          </div>
+          <div className="mt-12 bg-secondary/40 border border-border rounded-lg p-8">
+            <h3 className="text-2xl font-serif font-bold text-foreground mb-6 text-center">
+              Qué haces en cada día
+            </h3>
+          
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-background rounded-lg border border-border p-6">
+                <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-3">
+                  Día 1
+                </p>
+                <ul className="space-y-3 text-muted-foreground">
+                  <li>Ordenas tus ideas y eliges una dirección.</li>
+                  <li>Armas una estructura simple para contenido.</li>
+                  <li>Usas IA para sacar borradores sin quedarte en blanco.</li>
+                </ul>
+              </div>
+          
+              <div className="bg-background rounded-lg border border-border p-6">
+                <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-3">
+                  Día 2
+                </p>
+                <ul className="space-y-3 text-muted-foreground">
+                  <li>Ajustas la estructura para que te quede natural.</li>
+                  <li>Tomas decisiones: qué sí, qué no, y en qué orden.</li>
+                  <li>Sales con próximos pasos claros para la semana siguiente.</li>
+                </ul>
+              </div>
+            </div>
+          
+            <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
+              Para algunas personas, este es el punto donde por fin pueden avanzar sin bloqueo.
+              Otras prefieren seguir acompañadas después, para implementar con más foco y velocidad.
+            </p>
           </div>
         </div>
       </div>
