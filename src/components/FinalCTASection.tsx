@@ -24,10 +24,18 @@ const FinalCTASection = () => {
             $10 USD
           </p>
 
-          <p className="text-secondary-foreground/70 mb-10 max-w-xl mx-auto">
-            En WhatsApp confirmas tu país, recibes el medio de pago,
-            validas tu acceso y te enviamos el formulario y el enlace al grupo.
-          </p>
+          <div className="text-secondary-foreground/70 mb-10 max-w-xl mx-auto text-left">
+            <p className="mb-3 text-center">
+              Así se gestiona tu acceso por WhatsApp:
+            </p>
+            <ul className="space-y-2">
+              <li><span className="font-medium text-secondary-foreground">Paso 1:</span> Abres WhatsApp</li>
+              <li><span className="font-medium text-secondary-foreground">Paso 2:</span> Confirmas tu país</li>
+              <li><span className="font-medium text-secondary-foreground">Paso 3:</span> Recibes el medio de pago y confirmas</li>
+              <li><span className="font-medium text-secondary-foreground">Paso 4:</span> Te enviamos el registro y el enlace al grupo</li>
+            </ul>
+          </div>
+
 
           <WhatsAppButton size="lg" />
 
@@ -36,7 +44,7 @@ const FinalCTASection = () => {
           </p>
 
           <p className="mt-8 text-sm text-muted">
-            Cupos limitados. Confirmación por orden de pago.
+            Cupos limitados. Se confirma tu lugar al registrarse el pago.
           </p>
         </div>
       </div>
