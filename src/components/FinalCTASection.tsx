@@ -13,11 +13,11 @@ const FinalCTASection = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-secondary-foreground mb-6">
-            El siguiente paso está claro
+            Tu acceso se gestiona aquí
           </h2>
 
           <p className="text-lg text-secondary-foreground/80 mb-4">
-            Acceso completo al sistema por solo
+            Acceso al taller + bonos por
           </p>
 
           <p className="text-5xl font-bold text-primary mb-8">
@@ -25,13 +25,13 @@ const FinalCTASection = () => {
           </p>
 
           <p className="text-secondary-foreground/70 mb-10 max-w-xl mx-auto">
-            Continúa por WhatsApp para gestionar tu acceso al taller que te llevará del punto A al punto B.
+            En WhatsApp confirmas tu país, recibes el medio de pago, validas tu acceso y te enviamos el formulario y el enlace al grupo.
           </p>
 
           <WhatsAppButton size="lg" />
 
           <p className="mt-8 text-sm text-muted">
-            Cupos limitados. Acceso por grupos.
+            Cupos limitados. Confirmación por orden de pago.
           </p>
         </div>
       </div>
