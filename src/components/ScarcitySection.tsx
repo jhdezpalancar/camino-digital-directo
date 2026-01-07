@@ -12,7 +12,7 @@ const reasons = [
     icon: Users,
     title: "Cupos limitados",
     description:
-      "Trabajamos con grupos reducidos por logística y para poder sostener el seguimiento básico durante el proceso y el acceso al grupo.",
+      "Trabajamos con grupos reducidos por logística y para poder sostener el taller y el paso siguiente para quienes deciden continuar después.",
   },
   {
     icon: Clock,
@@ -28,12 +28,14 @@ const reasons = [
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-              Por qué cuesta $10 USD
+              ¿Por qué cuesta $10 USD?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Este taller está pensado para ayudarte a salir del bloqueo inicial.
               $10 USD es un precio accesible para que puedas entrar, ejecutar y probar el método en 2 días.
+              Para algunas personas, ese avance también abre la decisión de continuar acompañadas después.
             </p>
+
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
