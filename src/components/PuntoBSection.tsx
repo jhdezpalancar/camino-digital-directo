@@ -2,11 +2,11 @@ import { CheckCircle } from "lucide-react";
 
 const PuntoBSection = () => {
   const outcomes = [
-    "Tienes claridad sobre qué quieres crear y por qué.",
-    "Sabes exactamente cuáles son tus siguientes pasos.",
-    "Cuentas con un sistema para generar contenido sin improvisar.",
-    "Dominas herramientas de IA que aceleran tu proceso.",
-    "Sientes control sobre tu proyecto digital por primera vez.",
+    "Tienes una idea más nítida de qué vas a construir y para quién.",
+    "Te vas con los próximos pasos definidos, sin quedarte pensando “¿y ahora qué?”.",
+    "Empiezas a usar una estructura para crear contenido sin depender del ánimo del día.",
+    "Aprendes a apoyarte en IA para ahorrar tiempo en tareas repetitivas, sin enredarte.",
+    "Sientes menos ruido mental y más dirección para continuar al día siguiente.",
   ];
 
   return (
@@ -21,7 +21,7 @@ const PuntoBSection = () => {
               Donde estarás después del taller
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              No es magia. Es el resultado de un proceso estructurado y práctico.
+              No es magia. Es lo que pasa cuando por fin sigues una secuencia simple y ejecutable.
             </p>
           </div>
 
@@ -38,9 +38,9 @@ const PuntoBSection = () => {
 
           <div className="mt-12 text-center">
             <p className="text-lg text-muted-foreground">
-              En 2 días pasas de la confusión a la acción.
+              En 2 días dejas de dar vueltas y empiezas a ejecutar con orden.
               <br />
-              <span className="text-foreground font-medium">Sin rodeos. Sin teoría innecesaria.</span>
+              <span className="text-foreground font-medium">Directo. Práctico. Sin relleno.</span>
             </p>
           </div>
         </div>
