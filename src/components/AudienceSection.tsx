@@ -2,19 +2,20 @@ import { CheckCircle, XCircle } from "lucide-react";
 
 const AudienceSection = () => {
   const forWho = [
-    "Quieres crear contenido digital pero no sabes cómo empezar",
-    "Has consumido mucha información y necesitas ordenarla",
-    "Buscas un sistema práctico, no más teoría",
-    "Estás dispuesto a trabajar durante 2 días con enfoque",
-    "Valoras la claridad sobre la motivación vacía",
+    "Quieres crear contenido digital pero hoy te sientes desordenada(o) y sin una ruta clara",
+    "Has consumido cursos, videos o mentorías y sigues sin saber qué aplicar primero",
+    "Necesitas una estructura simple que te diga qué va antes y qué va después",
+    "Puedes dedicar dos días completos a trabajar con foco real",
+    "Prefieres claridad operativa antes que motivación vacía",
   ];
 
   const notForWho = [
-    "Buscas hacerte rico de la noche a la mañana",
-    "No estás dispuesto a invertir tiempo en el proceso",
-    "Prefieres seguir consumiendo contenido sin aplicar",
-    "Esperas que alguien haga el trabajo por ti",
+    "Buscas resultados rápidos sin pasar por un proceso",
+    "No estás dispuesta a sentarte a pensar y tomar decisiones",
+    "Prefieres seguir consumiendo contenido sin estructurarlo",
+    "Esperas que alguien haga el trabajo estratégico por ti",
   ];
+
 
   return (
     <section className="py-20 bg-card">
