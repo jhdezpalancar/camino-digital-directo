@@ -1,23 +1,26 @@
 import { Clock, Users, Shield } from "lucide-react";
 
 const ScarcitySection = () => {
-  const reasons = [
-    {
-      icon: Shield,
-      title: "Precio de entrada",
-      description: "El precio de $10 USD no refleja el valor del contenido. Es un precio de entrada al sistema para personas que quieren dar el primer paso sin barreras.",
-    },
-    {
-      icon: Users,
-      title: "Cupos limitados",
-      description: "El acceso se gestiona por grupos reducidos para mantener la calidad de la experiencia y poder acompañar a cada participante.",
-    },
-    {
-      icon: Clock,
-      title: "Pago por WhatsApp",
-      description: "El pago se coordina directamente por WhatsApp Business. Recibirás instrucciones claras y acceso inmediato una vez confirmado.",
-    },
-  ];
+const reasons = [
+  {
+    icon: Shield,
+    title: "Acceso accesible, trabajo real",
+    description:
+      "No es un curso para coleccionar. Es una intervención corta y práctica. $10 USD lo hace accesible para que puedas entrar y ejecutar sin pensarlo semanas.",
+  },
+  {
+    icon: Users,
+    title: "Cupos limitados",
+    description:
+      "Trabajamos con grupos reducidos por logística y para poder sostener el seguimiento básico durante el proceso y el acceso al grupo.",
+  },
+  {
+    icon: Clock,
+    title: "WhatsApp solo para gestión",
+    description:
+      "Por WhatsApp se confirma tu país, se define el medio de pago, se valida el pago y recibes el acceso al registro y al grupo. Nada de vueltas.",
+  },
+];
 
   return (
     <section className="py-20 bg-background">
@@ -25,11 +28,11 @@ const ScarcitySection = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-              Por qué este precio
+              Por qué cuesta $10 USD
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Camino Digital es la puerta de entrada a un sistema más amplio. 
-              El precio bajo elimina excusas y filtra a quienes realmente quieren avanzar.
+              Este taller está pensado para ayudarte a salir del bloqueo inicial.
+              $10 USD es un precio accesible para que puedas entrar, ejecutar y probar el método en 2 días.
             </p>
           </div>
 
