@@ -38,11 +38,12 @@ const PuntoBSection = () => {
 
           <div className="mt-12 text-center">
             <p className="text-lg text-muted-foreground">
-              En 2 días dejas de dar vueltas y empiezas a ejecutar con orden.
+              El lunes siguiente sabes exactamente qué publicar, por qué y en qué orden.
               <br />
-              <span className="text-foreground font-medium">Directo. Práctico. Sin relleno.</span>
+              <span className="text-foreground font-medium">Sin improvisar. Sin ruido. Con criterio.</span>
             </p>
           </div>
+
           <p className="mt-6 text-center text-sm text-muted-foreground">
             Este es el punto donde muchas personas por fin pueden avanzar sin bloqueo.
             Para algunas, también es el momento de decidir si quieren hacerlo acompañadas.
